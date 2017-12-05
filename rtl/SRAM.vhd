@@ -52,7 +52,6 @@ signal mem : ram_t := (others => (others => '0'));
 attribute ram_style : string; 
 attribute ram_style of mem : signal is STYLE;
 signal mem_dout : std_logic_vector (DWIDTH-1 downto 0) := (others => '0');
-signal r_mem_dout : std_logic_vector (DWIDTH-1 downto 0) := (others => '0');
 
 begin
 
